@@ -6,7 +6,7 @@
 using namespace std;
 using namespace Combat;
 
-
+//Constructeur
 Combat::Boxeur::Boxeur(string nom, double poids)
 {
 	this->nom = nom;
@@ -17,17 +17,19 @@ Combat::Boxeur::Boxeur(string nom, double poids)
 
 
 }
-
-//Constructeur
-Combat::Boxeur::Boxeur()
-{
-
-
-}
 // destructeur
-Combat::Boxeur::~Boxeur()
+Combat::Boxeur::Boxeur()
 {
 #ifdef TRACE
 	cout << "Destruction de (" << this->nom << ") a " << this << endl;
 #endif
 }
+
+Combat::Boxeur::~Boxeur()
+{
+}
+
+
+
+
+

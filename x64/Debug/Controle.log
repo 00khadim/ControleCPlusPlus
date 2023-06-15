@@ -1,2 +1,4 @@
-﻿  Boxeur.cpp
+﻿  Controle.cpp
+C:\Users\khadi\Desktop\C++\Controle\Controle\Controle.cpp(5,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\khadi\Desktop\C++\Controle\Controle\Controle.cpp(6,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
   Controle.vcxproj -> C:\Users\khadi\Desktop\C++\Controle\x64\Debug\Controle.exe

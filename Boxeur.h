@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 namespace Combat {
-
 	class Boxeur
 	{
 	private:
@@ -15,16 +14,8 @@ namespace Combat {
 		
 		// Mon constructeur qui prende deux parametre initialisé
 		Boxeur(string nom, double poids);
-		
 		Boxeur();
-
 		//le destructeur
 		~Boxeur();
-
-
-
-	
 	};
-
-
 }
